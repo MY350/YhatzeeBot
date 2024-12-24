@@ -5,3 +5,9 @@ p {
 body {
     background-color: brown;
 }
+
+button {
+    font-size: 32px;
+    padding: 16px 16px 16px 16px;
+    margin: 16px 16px 16px 16px;
+}
