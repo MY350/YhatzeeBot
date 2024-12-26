@@ -5,6 +5,7 @@
 </head>
 
 <body>
+    <div class="flex">
     <table>
         <tr>
             <th>Upper Section</th>
@@ -14,33 +15,84 @@
         <tr>
             <td>Ones</td>
             <td><button id="score">-</button></td>
+            <td>-</td>
         </tr>
         <tr>
             <td>Twos</td>
             <td><button id="score">-</button></td>
+            <td>-</td>
         </tr>
         <tr>
             <td>Threes</td>
             <td><button id="score">-</button></td>
+            <td>-</td>
         </tr>
         <tr>
             <td>Fours</td>
             <td><button id="score">-</button></td>
+            <td>-</td>
         </tr>
         <tr>
             <td>Fives</td>
             <td><button id="score">-</button></td>
+            <td>-</td>
         </tr>
         <tr>
             <td>Sixes</td>
             <td><button id="score">-</button></td>
+            <td>-</td>
         </tr>
     </table>
+    <div class="right">
+    <table>
+        <tr>
+            <th>Lower Section</th>
+            <th>Score</th>
+            <th>Probability</th>
+        </tr>
+        <tr>
+            <td>3 of a kind</td>
+            <td><button id="score">-</button></td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>4 of a kind</td>
+            <td><button id="score">-</button></td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Full House</td>
+            <td><button id="score">-</button></td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Small Straight</td>
+            <td><button id="score">-</button></td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Large Straight</td>
+            <td><button id="score">-</button></td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Yhatzee</td>
+            <td><button id="score">-</button></td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Chance</td>
+            <td><button id="score">-</button></td>
+            <td>-</td>
+        </tr>
+    </table>
+    </div>
+    </div>
     <script src="bot.js"></script>
-    <button id="dice1" type="button">1</button>
-    <button id="dice2" type="button">2</button>
-    <button id="dice3" type="button">3</button>
-    <button id="dice4" type="button">4</button>
-    <button id="dice5" type="button">5</button>
+    <button onclick="lock1()" id="dice1" type="button">1</button>
+    <button onclick="lock2()" id="dice2" type="button">2</button>
+    <button onclick="lock3()" id="dice3" type="button">3</button>
+    <button onclick="lock4()" id="dice4" type="button">4</button>
+    <button onclick="lock5()" id="dice5" type="button">5</button>
     <button onclick="roll()">Roll</button>
 </body>
